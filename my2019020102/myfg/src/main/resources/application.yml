@@ -1,0 +1,12 @@
+server:
+  port: 3002
+spring:
+  application:
+    name: myfg01
+  thymeleaf:
+    prefix:
+      classpath: /templates/
+eureka:
+  client:
+    service-url:
+       defaultZone: http://localhost:3000/eureka/

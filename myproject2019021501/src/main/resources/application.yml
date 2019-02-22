@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    show-sql: true
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: a123456
+    url: jdbc:mysql://localhost:3306/ds_0
+  redis:
+    port: 6379
+    database: 0
+    host: localhost
+myupload:
+    path: f:/upload
+
+

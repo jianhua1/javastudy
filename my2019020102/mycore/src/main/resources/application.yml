@@ -1,0 +1,9 @@
+server:
+  port: 3303
+spring:
+  application:
+    name: mycore01
+eureka:
+  client:
+    service-url:
+       defaultZone: http://localhost:3000/eureka/

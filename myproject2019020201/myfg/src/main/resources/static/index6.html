@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <p v-if="show">文本</p>
+        <button v-on:click="close">button</button>
+    </div>
+    ==================
+    <div id="app2">
+         <mymessage message="from father" ></mymessage>
+    </div>
+
+    <div id="myapp3">
+        <input type="text" v-model="mytext"/>
+        <mymessage3 :warningText="mytext"></mymessage3>
+    </div>
+    <script>
+        Vue.component("mymessage3",{
+           props:['warningText'],
+           template:"<b>{{warningText}}</b>"
+        });
+        new Vue({
+            el:"#myapp3",
+            data:{
+                mytext:""
+            }
+        });
+        Vue.component('mymessage',{
+            props:["message"],
+            template: "<b>{{message}}</b>"
+        });
+        new Vue({
+            el:"#app2"
+        });
+        new Vue({
+            el:"#app",
+            data:{
+                show:true
+            },
+            methods:{
+                test:function(){
+                    this.show=false;
+                },
+                close:function () {
+                    this.test();
+                }
+            }
+        });
+    </script>
+</body>
+</html>

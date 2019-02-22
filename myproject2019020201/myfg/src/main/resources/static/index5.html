@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+     <div id="app">
+         {{prices}}
+     </div>
+     <div id="app1"></div>
+     <div id="app2">
+         {{app2_text}}
+     </div>
+
+     <div id="app3">
+         <p v-if="show">这是一段文本</p>
+         <button v-on:click="show=false">隐藏</button>
+         <a v-bind:href="url">aaa</a>
+     </div>
+
+     <script>
+         new Vue({
+             el:"#app3",
+             data:{
+                 show:true,
+                 url:"http://www.baidu.com"
+             }
+         })
+
+         var app1=new Vue({
+             el:"#app1",
+             data:{
+                 xx:"123,456"
+             }
+         });
+         new Vue({
+             el:"#app2",
+             methods:{
+                 app2_text1:function () {
+                     alert(1);
+                     return "yycc1";
+                 }
+             },
+             computed:{
+                 app2_text:function () {
+                    // alert(2);
+                     return "yycc";
+                 }
+             }
+         })
+
+
+         new Vue({
+             el:"#app",
+             data:{
+                 package1:[{
+                     username:"z1",
+                     age:"1"
+                 },{
+                     username:"z2",
+                     age:"2"
+                 }],
+                 package2:[{
+                     username:"z3",
+                     age:"3"
+                 },{
+                     username:"z4",
+                     age:"4"
+                 }]
+             },
+             computed:{
+                 prices:function () {
+                     var prices1=0;
+                     prices1=this.package1[0].username;
+                     return prices1;
+                 }
+
+             }
+         });
+     </script>
+</body>
+</html>

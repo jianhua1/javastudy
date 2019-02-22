@@ -1,0 +1,17 @@
+server:
+  port: 3001
+spring:
+  application:
+    name: myfg3001
+  thymeleaf:
+    prefix:
+      classpath: /templates/
+  http:
+    multipart:
+      max-file-size: 10240MB
+eureka:
+  client:
+    service-url:
+        defaultZone: http://localhost:10086/eureka/
+custom:
+   upload-path: d:\jha

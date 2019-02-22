@@ -1,0 +1,14 @@
+server:
+  port: 3002
+spring:
+  application:
+    name: myzuul3002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka/
+zuul:
+  routes:
+    ab:
+       serviceId: myfg3001
+       path: /abc/**

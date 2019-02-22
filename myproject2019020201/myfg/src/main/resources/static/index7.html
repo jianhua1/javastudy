@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+  <div id="div1">
+      01:<input type="radio" value="01" name="myradio" v-model="mycheck"/>
+      02:<input type="radio" value="02" name="myradio" v-model="mycheck"/>
+      <br/>
+      --------------------
+      <br/>
+      03:<input type="checkbox" value="03" name="mycheckbox" v-model="mycheck2"/>
+      04:<input type="checkbox" value="04" name="mycheckbox" v-model="mycheck2"/>
+      05:<input type="checkbox" value="05" name="mycheckbox" v-model="mycheck2"/>
+      <br/>
+      --------------------
+      <br/>
+      <select v-model="optioned" multiple>
+          <option>a</option>
+          <option value="b">b</option>
+          <option>c</option>
+      </select>
+      <br/>
+      --------------------
+      <br/>
+      <select v-model="optioned2">
+          <option v-for="o in optioned2">
+              {{o.value}}
+          </option>
+      </select>
+      <input type="number"  v-model.number="message"/>
+      {{typeof message}}
+      <br/>
+      --------------------
+      <br/>
+      <input type="text" v-model.lazy="hehe">
+      {{hehe}}
+      <br/>
+      --------------------
+      <br/>
+      <input type="text" v-model="hehe1">
+      {{hehe1}}
+  </div>
+  <script>
+      new Vue({
+          el:"#div1",
+          data:{
+              hehe:"",
+              hehe1:"",
+              mycheck:01,
+              mycheck2:["05","04"],
+              optioned:["b"],
+              message:"33",
+              optioned2:[
+                  {
+                      text:"java",
+                      value:"java_t"
+                  },
+                  {
+                      text:"c++",
+                      value:"c++_t"
+                  },
+                  {
+                      text:".net",
+                      value:".net_t"
+                  }
+              ]
+          }
+      });
+
+  </script>
+</body>
+</html>

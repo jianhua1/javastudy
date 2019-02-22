@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: myeureka-ok
+eureka:
+  client:
+    service-url:
+       defaultZone: http://localhost:3000/eureka/
+    fetch-registry: false
+    register-with-eureka: false
+  instance:
+    hostname: localhost
+server:
+  port: 3000

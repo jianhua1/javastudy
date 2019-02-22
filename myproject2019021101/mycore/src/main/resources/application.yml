@@ -1,0 +1,10 @@
+server:
+  port: 2004
+spring:
+  application:
+    name: mycore
+eureka:
+  client:
+    service-url:
+       defaultZone: http://localhost:2001/eureka/
+    registry-fetch-interval-seconds: 2

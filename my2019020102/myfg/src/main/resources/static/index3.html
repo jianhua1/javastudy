@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+     <div id="mydiv">
+         <ul >
+             <li v-for="v in myfor">
+                 {{v.name}}
+             </li>
+         </ul>
+         ------------------------------
+         <ul>
+             <li v-for="(v,k) in myfor">
+                {{k}}---{{v}}
+             </li>
+         </ul>
+         ----------------------------
+         <ul>
+             <li v-for="n in 10">
+                 {{n}}
+             </li>
+         </ul>
+     </div>
+     ++++++++++++++++++++++++++++
+     <ul>
+         <li v-for="(value, key) in object">
+             {{ key }} : {{ value }}
+         </li>
+     </ul>
+----------------------
+
+<script type="text/javascript">
+    new Vue({
+        el:"#mydiv",
+        data:{
+           myfor:[
+               {name:"z3"},
+               {name:"l4"}
+           ],
+            object: {
+                name: '菜鸟教程',
+                url: 'http://www.runoob.com',
+                slogan: '学的不仅是技术，更是梦想！'
+            }
+        }
+    })
+</script>
+</body>
+</html>

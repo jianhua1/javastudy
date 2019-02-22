@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+    <div id="mydiv">
+        <div v-for="(obj,i) in myarr">
+            {{i+":"+obj.username}}
+        </div>
+        ----------------------
+        <div v-for="(v,k,i) in myarr2">
+            {{v+"--"+k+"---"+i}}
+        </div>
+        --------------------
+        <button-counter></button-counter>
+        <button-counter></button-counter>
+        <button-counter></button-counter>
+        ---------------------
+        {{fullName}}
+        +++++++++++++++++++
+        {{fullName2()}}
+    </div>
+
+<script>
+   Vue.component("button-counter",{
+       data:function () {
+           return {
+               count:0
+           }
+       },
+       template: '<button @click="count++">click me{{count}}</button>'
+   });
+   new Vue({
+       el:"#mydiv",
+       data:{
+           myarr: [
+               {
+                   username:"z3",
+                   password:"l4"
+               },{
+                   username:"z31",
+                   password:"l41"
+               }
+           ],
+           myarr2:{
+               username:"z3",
+               password:"123"
+           },
+
+       },
+       computed: {
+           fullName:function () {
+               return "aaa";
+           }
+       },
+       methods:{
+           fullName2:function () {
+               return "bbb";
+           }
+       }
+   });
+</script>
+</body>
+</html>

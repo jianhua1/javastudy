@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+   <div id="mydiv">
+       <div>
+           <input type="text" v-model="message1"/>
+           <mycomp1 :message="message1"></mycomp1>
+       </div>
+   </div>
+   <script>
+       Vue.component("mycomp1",{
+           props:["message"],
+           template:"<b>{{message}}</b>"
+       });
+       new Vue({
+           el:"#mydiv",
+           data:{
+              message1:""
+           }
+       })
+   </script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+server:
+  port: 2002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:2001/eureka/
+    registry-fetch-interval-seconds: 1
+    instance-info-replication-interval-seconds: 3
+#    initial-instance-info-replication-interval-seconds: 2
+spring:
+  application:
+    name: myzuul
+
+#zuul:
+#  host:
+#    socket-timeout-millis: 50009
+#    connect-timeout-millis: 50009
+
+ribbon:
+  ConnectTimeout: 5000
+  ReadTimeout: 2000
+hystrix:
+  command:
+    default:  #default全局有效，service id指定应用有效
+      execution:
+        timeout:
+          #如果enabled设置为false，则请求超时交给ribbon控制,为true,则超时作为熔断根据
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 150009 #断路器超时时间，默认1000ms
+#  ConnectionTimeOut: 500
+#  ReadTimeOut: 2000
+## 配置hystrix的超时时间和ribbon的超时时间,防止上传大文件的时候出现超时
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        timeout:
+#          enabled: false
+#        isolation:
+#          thread:
+#            #timeoutInMilliseconds: 60000
+#            timeoutInMilliseconds: 1800000
+#ribbon:
+#  ConnectTimeout: 1800000
+#  ReadTimeout: 1800000
+#zuul:
+# host:
+#    connect-timeout-millis: 50000
+#    socket-timeout-millis: 50000
+#zuul:
+#  routes:
+#     x1:
+#       path: /foo/**
+#       serviceId: myfg
+
+
+
+
+

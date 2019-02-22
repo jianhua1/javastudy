@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <table>
+            <tr>
+                <td>index</td><td>id</td><td>name</td>
+            </tr>
+            <tr v-for="(v,index) in products">
+                <td>{{index}}</td><td>{{v.id}}</td><td>{{v.name}}</td>
+            </tr>
+        </table>
+    </div>
+<script>
+    new Vue({
+       el:"#app",
+       data:{
+           products:[{
+               id:1,
+               name:"z3"
+           },{
+               id:2,
+               name:"l4"
+           }]
+       }
+    });
+</script>
+</body>
+</html>

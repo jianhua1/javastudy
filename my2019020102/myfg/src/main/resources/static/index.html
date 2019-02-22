@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+<div id="mydiv">
+    2323
+   {{aa}}
+    ---------------
+    {{3+5}}
+    =====================
+    <input type="text" v-model="aa">
+    <div v-html="abc" ></div>
+    <p v-if="xx" >rrr</p>
+    <a v-bind:href="vv">ab</a>
+    <a :href="xy">xty</a>
+    <button v-on:click="reverse">aaa</button>
+    <button @click="reverse2">bbb</button>
+    <label for="rl1">修改：</label> <input type="checkbox" v-model="mycheck" id="rl1">
+    <div v-if="ok">
+          11hello!
+    </div>
+    *************************
+    <ul>
+        <li v-for="site in sites">
+            {{site.name}}
+        </li>
+    </ul>
+</div>
+<script type="text/javascript">
+    var bb={aa:232};
+   var vue=new Vue({
+       el:"#mydiv",
+       data:{
+           sites:[
+               {name:"mr li"},
+               {name:"mr zhang"}
+           ],
+           mycheck:false,
+           abc:"333",
+           xx:true,
+           xy:"http://www.sohu.com",
+           aa:56,
+           id:2,
+           ok:true,
+           vv:"http://www.baidu.com"
+       },
+       methods:{
+           reverse:function () {
+               alert("aaaa");
+           },
+           reverse2:function () {
+               alert("bbb");
+           }
+       }
+
+   });
+   function reverse() {
+       alert("cccccc");
+   }
+   function foo() {
+       alert(11);
+   }
+
+
+</script>
+</body>
+</html>

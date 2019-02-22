@@ -1,0 +1,11 @@
+server:
+  port: 2001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:2000/eureka/
+spring:
+  application:
+    name: myzuul
+
+
