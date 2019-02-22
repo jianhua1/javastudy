@@ -7,7 +7,7 @@ public class Test {
         try{
             if(f.exists()){
                 if(f.isFile()){
-                    f.delete();12
+                    f.delete();
                 }else {
                     File[] files=f.listFiles();
                     if(files.length==0){
