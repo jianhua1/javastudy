@@ -1,0 +1,19 @@
+server:
+  port: 8008
+spring:
+  application:
+    name: myzuul2008
+eureka:
+  client:
+    service-url:
+          defaultZone: http://localhost:10086/eureka
+ribbon:
+  connectTimeout: 3300
+  readTimeout: 3300
+hystrix:
+  command:
+     default:
+        execution:
+            isolation:
+                thread:
+                    timeoutInMilliseconds: 150000
