@@ -7,6 +7,7 @@ import org.apache.commons.lang.StringUtils;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.netflix.ribbon.SpringClientFactory;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -34,18 +35,48 @@ public class MyFg {
         //System.out.println("aaaa");
         //return "abc";
     }*/
+    public static String getEncoding(String str) {
+        String encode = "GB2312";
+        try {
+            if (str.equals(new String(str.getBytes(encode), encode))) {
+                String s = encode;
+                return s;
+            }
+        } catch (Exception exception) {
+        }
+        encode = "ISO-8859-1";
+        try {
+            if (str.equals(new String(str.getBytes(encode), encode))) {
+                String s1 = encode;
+                return s1;
+            }
+        } catch (Exception exception1) {
+        }
+        encode = "UTF-8";
+        try {
+            if (str.equals(new String(str.getBytes(encode), encode))) {
+                String s2 = encode;
+                return s2;
+            }
+        } catch (Exception exception2) {
+        }
+        encode = "GBK";
+        try {
+            if (str.equals(new String(str.getBytes(encode), encode))) {
+                String s3 = encode;
+                return s3;
+            }
+        } catch (Exception exception3) {
+        }
+        return "";
+    }
 
     @PostMapping(value = "/myupload")
     public void myupload(MultipartFile file){
         try{
-            System.out.println("------myupload"+file.getOriginalFilename());
-            String uploadDir=ymlConfig.getUploadDir();
-            File f=new File(uploadDir);
-            if(!f.exists()){
-                f.mkdirs();
-            }
-            File ff=new File(uploadDir+file.getOriginalFilename());
-            file.transferTo(ff);
+            System.setProperty("sun.jnu.encoding","utf-8");
+            System.out.println(file.getOriginalFilename());
+            myFeign.myupload(file);
         }catch (Exception e){
             e.printStackTrace();
         }

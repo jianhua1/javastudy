@@ -1,8 +1,21 @@
 server:
   port: 8008
+#  tomcat:
+#    max-http-post-size: 50000
+#    uri-encoding: UTF-8
 spring:
   application:
-    name: myzuul2008
+    name: myzuul8008
+  #文件上传大小
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+    multipart:
+      max-file-size: 4096Mb
+      max-request-size: 4096Mb
+      location: /
 eureka:
   client:
     service-url:

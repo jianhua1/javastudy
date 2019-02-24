@@ -1,16 +1,24 @@
 server:
-  port: 8005
+  port: 8016
+#  tomcat:
+#    uri-encoding: UTF-8
 spring:
   application:
-    name: myfg8005
+    name: myfg8016
   thymeleaf:
     prefix: classpath:/templates/
     suffix: .html
+    encoding: UTF-8
   rabbitmq:
     port: 5672
     username: guest
     password: guest
     host: localhost
+#  http:
+#    encoding:
+#      charset: UTF-8
+#      force: true
+#      enabled: true
 eureka:
   client:
     service-url:
