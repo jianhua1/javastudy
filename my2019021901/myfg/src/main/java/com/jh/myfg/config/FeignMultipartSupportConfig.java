@@ -15,6 +15,10 @@ import org.springframework.context.annotation.Scope;
  * @author 吴兵
  * @date 2018-01-05 19:26
  */
+/**
+ * @author 吴兵
+ * @date 2018-01-05 19:26
+ */
 
 @Configuration
 public class FeignMultipartSupportConfig {
@@ -22,25 +26,8 @@ public class FeignMultipartSupportConfig {
   @Autowired
   private ObjectFactory<HttpMessageConverters> messageConverters;
 
-//  @Bean
-//  public Encoder feignFormEncoder() {
-//    System.out.println("ccccccc"+new SpringFormEncoder(new SpringEncoder(messageConverters)).toString());
-//    return new SpringFormEncoder(new SpringEncoder(messageConverters));
-//  }
-
-
   @Bean
-  @Primary
-  @Scope("prototype")
-  public Encoder multipartFormEncoder() {
-    System.out.println("aaaaaaaaaaaaaa");
-    System.out.println(messageConverters.toString());
+  public Encoder feignFormEncoder() {
     return new SpringFormEncoder(new SpringEncoder(messageConverters));
-   // return new SpringFormEncoder();
-  }
-
-  @Bean
-  public feign.Logger.Level multipartLoggerLevel() {
-    return feign.Logger.Level.FULL;
   }
 }

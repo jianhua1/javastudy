@@ -8,10 +8,7 @@ import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.netflix.ribbon.SpringClientFactory;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
@@ -72,9 +69,9 @@ public class MyFg {
     }
 
     @PostMapping(value = "/myupload")
-    public void myupload(MultipartFile file){
+    public void myupload(@RequestPart("file") MultipartFile file){
         try{
-            System.setProperty("sun.jnu.encoding","utf-8");
+            //System.setProperty("sun.jnu.encoding","utf-8");
             System.out.println(file.getOriginalFilename());
             myFeign.myupload(file);
         }catch (Exception e){
@@ -85,10 +82,11 @@ public class MyFg {
     @PostMapping("/submitinfo")
     public void submitinfo(String username,@RequestParam(value = "fxk") List<String> fxk){
         try{
+            System.out.println("mmmmmmmmkkkkkkkkkkklllllllll;;;;;;;;");
             System.out.println(username);
             System.out.println(JSON.toJSONString(fxk));
             String fxkStr=JSON.toJSONString(fxk);
-            amqpTemplate.convertAndSend("ok_exchange","fruit",username+"==="+fxkStr);
+           // amqpTemplate.convertAndSend("ok_exchange","fruit",username+"==="+fxkStr);
             myFeign.submitinfo(username,fxk);
         }catch (Exception e){
             e.printStackTrace();

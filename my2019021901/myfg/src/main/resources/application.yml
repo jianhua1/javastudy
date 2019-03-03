@@ -1,5 +1,8 @@
 server:
   port: 8016
+  max-http-header-size: 102400
+  session:
+    timeout: 50000
 #  tomcat:
 #    uri-encoding: UTF-8
 spring:
@@ -14,6 +17,11 @@ spring:
     username: guest
     password: guest
     host: localhost
+    # 文件上传大小配置
+    http:
+        multipart:
+          max-file-size: 4048Mb
+          max-request-size: 4048Mb
 #  http:
 #    encoding:
 #      charset: UTF-8
@@ -27,8 +35,8 @@ eureka:
   instance:
     prefer-ip-address: true
 ribbon:
-  ConnectTimeout: 13000
-  ReadTimeout: 13000
+  ConnectTimeout: 23000
+  ReadTimeout: 23000
 feign:
   hystrix:
     enabled: true

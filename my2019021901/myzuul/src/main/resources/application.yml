@@ -1,8 +1,8 @@
 server:
   port: 8008
-#  tomcat:
-#    max-http-post-size: 50000
-#    uri-encoding: UTF-8
+  tomcat:
+    max-http-post-size: 50000
+    uri-encoding: UTF-8
 spring:
   application:
     name: myzuul8008
@@ -20,13 +20,27 @@ eureka:
   client:
     service-url:
           defaultZone: http://localhost:10086/eureka
+  # 服务名称地址开启
+  instance:
+    prefer-ip-address: true
 ribbon:
-  connectTimeout: 3300
-  readTimeout: 3300
+  ConnectTimeout: 1800000
+  ReadTimeout: 1800000
 hystrix:
   command:
-     default:
-        execution:
-            isolation:
-                thread:
-                    timeoutInMilliseconds: 150000
+    default:
+      execution:
+        timeout:
+          enabled: false
+        isolation:
+          thread:
+            #timeoutInMilliseconds: 60000
+            timeoutInMilliseconds: 9800000
+zuul:
+ routes:
+    mycore8006:
+      path: /mycore8006/**
+      serviceId: mycore8006
+ host:
+    connect-timeout-millis: 50000
+    socket-timeout-millis: 50000

@@ -1,3 +1,4 @@
+/*
 
 package com.jh.myzuul;
 
@@ -34,3 +35,4 @@ public class CustomMVCConfiguration extends WebMvcConfigurerAdapter {
         configurer.favorPathExtension(false);
     }
 }
+*/

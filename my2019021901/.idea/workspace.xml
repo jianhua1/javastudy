@@ -2,16 +2,50 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="myfg:war exploded" />
+      <artifact name="myzuul:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8db027d-8428-432e-aa54-3eada7c38fcf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tomcat9upload/src/main/java/com/jh/tomcat9upload/controller/MyUpload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tomcat9upload/src/main/resources/static/bbb.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tomcat9upload/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myconfig/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mymvc7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mymvc7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mymvc7/.idea/mymvc7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mymvc7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mymvc7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mycore_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/mycore_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mycore_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/mycore_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/myeureka_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/myeureka_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/myeureka_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/myeureka_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/myfg_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/myfg_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/myfg_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/myfg_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/myzuul_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/myzuul_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/myzuul_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/myzuul_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_37.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_37.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_5_37.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_37.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_12_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycore/mycore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mycore/mycore.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycore/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mycore/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/MycoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/MycoreApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myconfig/CustomMVCConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/mycontroller/TUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycore/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mycore/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myeureka/myeureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myeureka/myeureka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myeureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myeureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myeureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/myeureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfg/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myfg/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/CustomMVCConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/CustomMVCConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/FeignMultipartSupportConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/FeignMultipartSupportConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/controller/MyFg.java" beforeDir="false" afterPath="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/controller/MyFg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/feign/MyFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/feign/MyFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myfg/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/myfg/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myzuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myzuul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myzuul/src/main/java/com/jh/myzuul/CustomMVCConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/myzuul/src/main/java/com/jh/myzuul/CustomMVCConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myzuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/myzuul/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/mycore/target/" />
@@ -24,16 +58,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-815621437">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="4" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="5" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -41,11 +90,11 @@
           <entry key="class" value="20" />
           <entry key="html" value="4" />
           <entry key="iml" value="2" />
-          <entry key="java" value="73" />
+          <entry key="java" value="84" />
           <entry key="json" value="1" />
           <entry key="pom" value="13" />
           <entry key="xml" value="35" />
-          <entry key="yml" value="21" />
+          <entry key="yml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -53,26 +102,26 @@
           <entry key="CLASS" value="20" />
           <entry key="HTML" value="4" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="73" />
+          <entry key="JAVA" value="84" />
           <entry key="JSON" value="1" />
           <entry key="XML" value="48" />
-          <entry key="YAML" value="21" />
+          <entry key="YAML" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1853" />
+          <entry key="java" value="2201" />
           <entry key="txt" value="3" />
           <entry key="xml" value="91" />
-          <entry key="yml" value="67" />
+          <entry key="yml" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1853" />
+          <entry key="JAVA" value="2201" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="91" />
-          <entry key="YAML" value="67" />
+          <entry key="YAML" value="71" />
         </counts>
       </usages-collector>
     </session>
@@ -80,91 +129,106 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/feign/MyFeign.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mycore/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myconfig/MyConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="210">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myconfig/RedisProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myzuul/src/main/java/com/jh/myzuul/MyzuulApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/mycontroller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2880">
+              <caret line="117" column="9" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/feign/MyFeign.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myfg/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myconfig/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/mycontroller/TUserController.java">
+        <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myconfig/Test2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="130" column="31" selection-start-line="130" selection-start-column="31" selection-end-line="130" selection-end-column="31" />
+            <state relative-caret-position="452">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myfg/src/main/resources/templates/index.html">
+        <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="111810">
+              <caret line="3799" column="25" selection-start-line="3799" selection-start-column="25" selection-end-line="3799" selection-end-column="25" />
+              <folding>
+                <element signature="e#177013#177014#0" expanded="true" />
+                <element signature="e#177054#177055#0" expanded="true" />
+                <element signature="e#177353#177354#0" expanded="true" />
+                <element signature="e#177410#177411#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/controller/MyFg.java">
+        <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/reflect/Field.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="59" selection-start-line="59" selection-end-line="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myeureka/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myfg/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/1.5.19.RELEASE/spring-boot-starter-web-1.5.19.RELEASE.pom">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myzuul/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1049">
-              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+            <state relative-caret-position="9990">
+              <caret line="383" column="18" selection-start-line="383" selection-start-column="18" selection-end-line="383" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -181,6 +245,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ServerProperties</find>
+      <find>/getuser1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -189,30 +254,34 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mycore/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/MycoreApplication.java" />
         <option value="$PROJECT_DIR$/myeureka/src/main/java/com/jh/myeureka/MyeurekaApplication.java" />
         <option value="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/MyfgApplication.java" />
         <option value="$PROJECT_DIR$/myzuul/src/main/java/com/jh/myzuul/MyzuulApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jh/my2019021901/My2019021901Application.java" />
         <option value="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/MultipartConfig.java" />
-        <option value="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/DisableHystrixConfiguration.java" />
-        <option value="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/FeignMultipartSupportConfig.java" />
-        <option value="$PROJECT_DIR$/myzuul/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/CustomMVCConfiguration.java" />
-        <option value="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/FeignConfig.java" />
         <option value="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/MyFormHttpMessageConverter.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myconfig/CustomMVCConfiguration.java" />
+        <option value="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/CustomMVCConfiguration.java" />
         <option value="$PROJECT_DIR$/myzuul/src/main/java/com/jh/myzuul/CustomMVCConfiguration.java" />
+        <option value="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/FeignMultipartSupportConfig.java" />
+        <option value="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/DisableHystrixConfiguration.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/myfg/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/myeureka/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/feign/MyFeign.java" />
+        <option value="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/controller/MyFg.java" />
+        <option value="$PROJECT_DIR$/myzuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myconfig/CustomMVCConfiguration.java" />
+        <option value="$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/MycoreApplication.java" />
+        <option value="$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myconfig/RedisProperties.java" />
+        <option value="$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/mycontroller/TUserController.java" />
+        <option value="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/FeignConfig.java" />
+        <option value="$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/mycontroller/UserController.java" />
+        <option value="$PROJECT_DIR$/mycore/pom.xml" />
         <option value="$PROJECT_DIR$/myeureka/pom.xml" />
         <option value="$PROJECT_DIR$/myzuul/pom.xml" />
+        <option value="$PROJECT_DIR$/mycore/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/myfg/pom.xml" />
-        <option value="$PROJECT_DIR$/mycore/pom.xml" />
-        <option value="$PROJECT_DIR$/myfg/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/controller/MyFg.java" />
-        <option value="$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/mycontroller/TUserController.java" />
+        <option value="$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myconfig/Test2.java" />
       </list>
     </option>
   </component>
@@ -252,9 +321,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="158" />
+    <option name="y" value="364" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -266,7 +335,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -318,11 +386,92 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mycore" type="462c0819:PsiDirectoryNode" />
+              <item name="myconfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
+              <item name="mycore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mycore" type="462c0819:PsiDirectoryNode" />
               <item name="mycontroller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
               <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
+              <item name="mycore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mycore" type="462c0819:PsiDirectoryNode" />
+              <item name="myservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
+              <item name="mycore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
+              <item name="myeureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
+              <item name="myeureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
+              <item name="myeureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
+              <item name="myeureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
+              <item name="myeureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myeureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
+              <item name="myeureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myeureka" type="462c0819:PsiDirectoryNode" />
+              <item name="mycore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
+              <item name="myeureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
               <item name="myfg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -354,26 +503,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="myfg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
-              <item name="myfg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myfg" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
-              <item name="myfg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myfg" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
@@ -396,24 +525,55 @@
             <path>
               <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
               <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
-              <item name="myfg" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="myzuul" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
               <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
               <item name="myzuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
+              <item name="myzuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
+              <item name="myzuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
+              <item name="myzuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myzuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my2019021901" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my2019021901" type="462c0819:PsiDirectoryNode" />
+              <item name="myzuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -422,19 +582,19 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551018172575" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/myzuul" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551275597319" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mymvc7" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.jh.myzuul" />
       <recent name="com.jh.mycore.myconfig" />
+      <recent name="com.jh.myzuul" />
       <recent name="com.jh.myfg.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -459,7 +619,20 @@
     </option>
     <option name="contentProportion" value="0.1396104" />
   </component>
-  <component name="RunManager" selected="Tomcat Server.fg8016">
+  <component name="RunManager" selected="Application.Test2">
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jh.mycore.myconfig.Test2" />
+      <module name="mycore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jh.mycore.myconfig.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="My2019021901Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="my2019021901" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jh.my2019021901.My2019021901Application" />
@@ -566,8 +739,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="core8006" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="core8006" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="D:/java/jdk1.8.0_172">
       <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8006/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="mycore:war exploded">
@@ -641,7 +815,7 @@
         </option>
       </method>
     </configuration>
-    <configuration name="eureka10086" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="eureka10086" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="D:/java/jdk1.8.0_172">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -716,7 +890,7 @@
         </option>
       </method>
     </configuration>
-    <configuration name="fg8016" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="fg8016" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="D:/java/jdk1.8.0_172">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -791,7 +965,7 @@
         </option>
       </method>
     </configuration>
-    <configuration name="zuul8008" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="zuul8008" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="D:/java/jdk1.8.0_172">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -876,7 +1050,13 @@
       <item itemvalue="Tomcat Server.fg8016" />
       <item itemvalue="Tomcat Server.zuul8008" />
       <item itemvalue="Tomcat Server.eureka10086" />
+      <item itemvalue="Application.Test2" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\jh\AppData\Roaming\Subversion</configuration>
@@ -896,7 +1076,15 @@
       <workItem from="1550924198770" duration="6464000" />
       <workItem from="1550968975903" duration="6341000" />
       <workItem from="1550975381380" duration="4179000" />
-      <workItem from="1550987155214" duration="22161000" />
+      <workItem from="1550987155214" duration="22583000" />
+      <workItem from="1551056432859" duration="12866000" />
+      <workItem from="1551074773475" duration="10933000" />
+      <workItem from="1551142568719" duration="8340000" />
+      <workItem from="1551185933668" duration="2405000" />
+      <workItem from="1551191358863" duration="7000" />
+      <workItem from="1551191950343" duration="228000" />
+      <workItem from="1551274803188" duration="896000" />
+      <workItem from="1551577003012" duration="805000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1551018017852</created>
@@ -905,85 +1093,103 @@
       <option name="project" value="LOCAL" />
       <updated>1551018017852</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="111">
+      <created>1551018187152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551018187152</updated>
+    </task>
+    <task id="LOCAL-00003" summary="111">
+      <created>1551018225938</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551018225938</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48998000" />
+    <option name="totallyTimeSpent" value="85900000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22867803" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24200426" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.32899022" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" x="22" y="225" width="1876" height="590" id="Run" order="3" sideWeight="0.6167377" visible="true" weight="0.4636265" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.26058632" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32899022" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.21162046" side_tool="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.78837955" weight="0.6340934" />
-      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32899022" />
+      <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.3281075" />
+      <window_info anchor="bottom" id="Inspection Results" order="1" weight="0.32997763" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" x="22" y="225" width="1876" height="590" id="Run" order="4" sideWeight="0.7436034" weight="0.4039088" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.26058632" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.21268657" side_tool="true" weight="0.27547592" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32899022" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SVN Repositories" order="14" weight="0.32997763" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.78731346" weight="0.26091826" />
+      <window_info anchor="bottom" id="Application Servers" order="17" weight="0.32899022" />
       <window_info anchor="right" id="Bean Validation" order="0" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.25692964" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.1641791" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32995737" />
     </layout>
     <layout-to-restore>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22867803" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23667377" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.32899022" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" x="22" y="225" width="1876" height="590" id="Run" order="3" sideWeight="0.6167377" visible="true" weight="0.51140064" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.26058632" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Spring" order="8" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32899022" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.21162046" side_tool="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" sideWeight="0.78837955" weight="0.6340934" />
-      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32899022" />
+      <window_info anchor="bottom" id="Java Enterprise" order="0" weight="0.3281075" />
+      <window_info anchor="bottom" id="Inspection Results" order="1" weight="0.32997763" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" x="22" y="225" width="1876" height="590" id="Run" order="4" sideWeight="0.7436034" visible="true" weight="0.4820847" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.26058632" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.21268657" side_tool="true" weight="0.27547592" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32899022" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="SVN Repositories" order="14" weight="0.32997763" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="bottom" id="Run Dashboard" order="16" sideWeight="0.78731346" weight="0.26091826" />
+      <window_info anchor="bottom" id="Application Servers" order="17" weight="0.32899022" />
       <window_info anchor="right" id="Bean Validation" order="0" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="6" visible="true" weight="0.25692964" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="6" visible="true" weight="0.1641791" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32995737" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1001,7 +1207,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/feign/MyFeign.java</url>
-          <line>24</line>
+          <line>25</line>
           <properties class="com.jh.myfg.feign.MyFeign" method="myupload" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
@@ -1013,9 +1219,14 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/myzuul/src/main/java/com/jh/myzuul/CustomMVCConfiguration.java</url>
-          <line>18</line>
+          <line>19</line>
           <properties />
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/mycontroller/UserController.java</url>
+          <line>107</line>
+          <properties />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -1024,92 +1235,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/1.5.19.RELEASE/spring-boot-starter-1.5.19.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myzuul/src/main/java/com/jh/myzuul/controller/MyZuul.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.22.RELEASE/spring-web-4.3.22.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.22.RELEASE/spring-web-4.3.22.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/MultipartConfig.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.22.RELEASE/spring-web-4.3.22.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.5.0/feign-core-9.5.0.jar!/feign/Util.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.5.0/feign-core-9.5.0.jar!/feign/codec/Encoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/form/feign-form/2.1.0/feign-form-2.1.0.jar!/feign/form/FormEncoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myeureka/src/main/java/com/jh/myeureka/MyeurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myeureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.5.0/feign-core-9.5.0.jar!/feign/ReflectiveFeign.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="335" selection-start-line="335" selection-end-line="335" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/form/feign-form-spring/2.1.0/feign-form-spring-2.1.0.jar!/feign/form/spring/SpringFormEncoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.22.RELEASE/spring-context-4.3.22.RELEASE.jar!/org/springframework/context/annotation/Primary.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/YmlConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -1124,10 +1253,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="247" lean-forward="true" selection-start-line="247" selection-end-line="247" />
-          <folding>
-            <element signature="e#8277#8278#0" expanded="true" />
-            <element signature="e#8321#8322#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1138,65 +1263,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myzuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/MyfgApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycore/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myconfig/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/FeignMultipartSupportConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/DisableHystrixConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/FeignConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/MycoreApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.4.6.RELEASE/spring-cloud-netflix-core-1.4.6.RELEASE.jar!/org/springframework/cloud/netflix/feign/FeignClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1204,49 +1270,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/MyFormHttpMessageConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/CustomMVCConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myzuul/src/main/java/com/jh/myzuul/CustomMVCConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myzuul/src/main/java/com/jh/myzuul/MyzuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/MyFormHttpMessageConverter.java" />
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-tomcat/1.5.19.RELEASE/spring-boot-starter-tomcat-1.5.19.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="797">
@@ -1261,20 +1285,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-jasper/8.5.37/tomcat-embed-jasper-8.5.37.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfg/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-jasper/8.5.37/tomcat-embed-jasper-8.5.37.pom" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/1.5.19.RELEASE/spring-boot-actuator-1.5.19.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -1289,13 +1300,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.22.RELEASE/spring-webmvc-4.3.22.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1017">
@@ -1303,80 +1307,279 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myconfig/CustomMVCConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myzuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1049">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myeureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/feign/MyFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycore/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myconfig/MyConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/controller/MyFg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="59" selection-start-line="59" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-web/1.5.19.RELEASE/spring-boot-starter-web-1.5.19.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="810">
           <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myfg/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myfg/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        <state relative-caret-position="150">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/mycontroller/TUserController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6-sources.jar!/org/apache/http/impl/conn/DefaultHttpClientConnectionOperator.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="130" column="31" selection-start-line="130" selection-start-column="31" selection-end-line="130" selection-end-column="31" />
+        <state relative-caret-position="1350">
+          <caret line="45" column="65" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myconfig/CustomMVCConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/myfg/src/test/java/com/jh/myfg/MyfgApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/mycore/TUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/mydao/TUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myservice/TUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/controller/MyFg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/YmlConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/FeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/FeignMultipartSupportConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/CustomMVCConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/config/DisableHystrixConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/MyfgApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycore/src/test/java/com/jh/mycore/MycoreApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/MycoreApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycore/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="85" column="35" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myeureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myzuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myzuul/src/main/java/com/jh/myzuul/CustomMVCConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myzuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myfg/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="111" column="35" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myeureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myeureka/src/main/java/com/jh/myeureka/MyeurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myeureka/src/main/java/com/jh/myeureka/mycore/TUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycore/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myconfig/MyConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myconfig/RedisProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myzuul/src/main/java/com/jh/myzuul/MyzuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/mycontroller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="117" column="9" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myfg/src/main/java/com/jh/myfg/feign/MyFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myfg/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myconfig/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111810">
+          <caret line="3799" column="25" selection-start-line="3799" selection-start-column="25" selection-end-line="3799" selection-end-column="25" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+            <element signature="e#177353#177354#0" expanded="true" />
+            <element signature="e#177410#177411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/lang/reflect/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9990">
+          <caret line="383" column="18" selection-start-line="383" selection-start-column="18" selection-end-line="383" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mycore/src/main/java/com/jh/mycore/myconfig/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

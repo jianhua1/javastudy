@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="myeureka:war exploded">
-    <output-path>$PROJECT_DIR$/myeureka/target/myeureka-0.0.1-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/myeureka/target/ROOT</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -31,6 +31,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.22.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.22.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.22.RELEASE" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:1.4.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-starter:1.3.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.cloud:spring-cloud-context:1.3.5.RELEASE" />
@@ -110,7 +111,7 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/myeureka/target/myeureka-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/myeureka/target/ROOT/META-INF/MANIFEST.MF" />
       </element>
       <element id="javaee-facet-resources" facet="myeureka/web/Web" />
     </root>

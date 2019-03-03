@@ -21,6 +21,7 @@ public interface MyFeign {
 
     @RequestMapping(value = "/zuul/mycore8006/myupload",
             method = RequestMethod.POST,
+            produces = {MediaType.APPLICATION_JSON_UTF8_VALUE},
             consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
-    void myupload(@RequestPart(value = "file")MultipartFile file);
+    void myupload(@RequestPart("file") MultipartFile file);
 }
